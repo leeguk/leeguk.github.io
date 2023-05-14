@@ -14,7 +14,7 @@ table, tr, th, td {
 </head>
 <body>
 <h3> 환영합니다 20210346 이국봉의 홈페이지입니다.</h3>
-	<h3>시간표</h3>
+	<h3 onmouseout="this.style.color='black'"onmouseover="this.style.color='red'">시간표</h3>
 
 <table>
 <tr>
@@ -31,7 +31,7 @@ table, tr, th, td {
 </tr>
 
 	<td>1교시<br>(09:00~09:50)</td>
-	<td></td>
+	<td><img onmouseout="this.style.width='100px'"onmouseover="this.style.width='200px'" src="로고.png" width="100px"></td>
 	<td></td>
 	<td></td>
 	<td></td>
@@ -102,10 +102,14 @@ table, tr, th, td {
 	<td></td>
 </tr>
 </table>
+<img id="lightb" src="light-bulb_off.png" width='120px'><br>
+    <button onclick="document.getElementById('lightb').src='light-bulb_on.png'">전등켜기스위치</button>
+    <button onclick="document.getElementById('lightb').src='light-bulb_off.png'"">전등끄기스위치</button>
 <h3><a href="page.html">[회원가입]</a></h3> 
 <h3><a href="rubato.html">[루바토 펜션 안내]</a></h3>
 <h3><a href="festival.html">[호서 국제 기타 페스티벌 안내]</a></h3>
 <h3><a href="호서야간개장.html">[호서 야간개장]</a></h3>
 <h3><a href="세일안내장.html">[세일 안내장]</a></h3>
+<h3><a href="월간일정표.html">[월간 일정표]</a></h3>
 </body>
 </html>
